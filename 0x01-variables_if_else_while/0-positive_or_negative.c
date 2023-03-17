@@ -3,8 +3,8 @@
 #include <time.h>
 
 /*
- * main - affects random number to variable n when executed
- * Return: prints number and whether it is positive, negative, or zero
+ * main - Entry point
+ * Return: 0 (success)
  */
 int main(void)
 {
