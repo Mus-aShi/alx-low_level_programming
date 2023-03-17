@@ -3,8 +3,8 @@
 #include <time.h>
 
 /*
- * main - assign a random number to the variable n
- * Return: prints out the stored number
+ * main - affects random number to variable n when executed
+ * Return: prints number and whether it is positive, negative, or zero
  */
 int main(void)
 {
