@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * rev_string - reverse a string
  * @s: string to be printed
@@ -8,7 +7,7 @@
 void rev_string(char *s)
 {
 	int i, swap;
-	int j = strlen(s) - 1;
+	int j = _strlen(s) - 1;
 
 	while (i <= j)
 	{
@@ -18,4 +17,21 @@ void rev_string(char *s)
 		i++;
 		j--;
 	}
+}
+
+/**
+ * _strlen - returns the length of a string
+ * @s: string to be evaluated
+ * Return: length of string
+ */
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	return (i);
 }
