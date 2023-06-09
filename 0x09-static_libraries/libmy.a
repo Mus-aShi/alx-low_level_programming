@@ -1,1 +1,5 @@
+gcc -c _putchar.c
+gcc -c _islower.c
+# Compile and create object files for the remaining functions
 
+ar rcs libmy.a _putchar.o _islower.o ... # Add object files to the library
